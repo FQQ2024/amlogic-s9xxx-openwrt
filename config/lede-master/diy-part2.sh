@@ -33,6 +33,8 @@ rm -rf package/luci-app-amlogic
 git clone https://github.com/ophub/luci-app-amlogic.git package/luci-app-amlogic
 rm -rf feeds/packages/lang/golang
 git clone https://github.com/kenzok8/golang feeds/packages/lang/golang
+rm -rf package/luci-theme-alpha
+git clone https://github.com/derisamedia/luci-theme-alpha.git package/luci-theme-alpha
 # Apply patch
 # git apply ../config/patches/{0001*,0002*}.patch --directory=feeds/luci
 #

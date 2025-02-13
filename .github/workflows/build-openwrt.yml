@@ -218,12 +218,12 @@ on:
       builder_name:
         description: "Set OpenWrt builder signature."
         required: false
-        default: "ophub"
+        default: "Feng"
         type: choice
         options:
           - ophub
           - angel
-          - yourname
+          - Feng
 
 env:
   FEEDS_CONF: config/${{ inputs.source_branch }}/feeds.conf.default
